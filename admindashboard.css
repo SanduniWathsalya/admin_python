@@ -1,0 +1,123 @@
+/* ./src/components/Dashboard.css */
+.dashboard {
+  padding: 2rem;
+  width: 80%;
+  background-color: #fff;
+  margin-top: 50px; /* Adds a 20px gap at the top */
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.card {
+  flex: 1;
+  background-color: #d1b3e3;
+  text-align: left; /* Align text to the left */
+  padding: 1rem;
+  height: 100px;
+  margin: 0 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline from Link */
+  color: black; /* Set the text color */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition */
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  background-color: #c79fd0; /* Change background color on hover */
+}
+
+.card-content {
+  display: flex; /* Use flexbox for alignment */
+  align-items: flex-start; /* Align items to the top */
+}
+
+.icon {
+  width: 44px; /* Set the desired width of the icon */
+  height: 44px; /* Set the desired height of the icon */
+  margin-right: 10px; /* Space between the icon and text */
+}
+
+.icon3 {
+  width: 58px; /* Set the desired width of the icon */
+  height: 58px; /* Set the desired height of the icon */
+  position: relative;
+  bottom:8px;
+  margin-right: 10px; /* Space between the icon and text */
+}
+
+.text {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+}
+
+.card-title {
+  font-size: 1rem; /* Adjust title font size */
+  text-align: center;
+
+}
+
+
+.card-title4 {
+  font-size: 1rem; /* Adjust title font size */
+  text-align:right;
+  position: relative;
+  left: 30px;
+  top:10px;
+}
+
+.count {
+  font-size: 1.2rem; /* Smaller font size for the count */
+  margin-top: 4px; /* Space between title and count */
+  position: relative;
+  right: 50px;
+}
+
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.chart {
+  background-color: #f4e1fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.chart2 {
+  background-color: #f4e1fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.chart h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.chart2 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.chart2 img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  background-color: #f4e1fa;
+  padding: 1rem;
+}
