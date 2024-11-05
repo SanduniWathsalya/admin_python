@@ -78,7 +78,7 @@ const Dashboard = () => {
           </div>
         </Link>
       </div>
-      <div className="charts">
+        <div className="charts">
         <div className="chart2">
           <h2>Students' activation</h2>
           {chartImage && <img src={chartImage} alt="Students' Activation Chart" />}  {/* Render the chart image */}
